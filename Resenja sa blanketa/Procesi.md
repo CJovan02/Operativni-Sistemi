@@ -1,3 +1,3 @@
 
 1. Kada jedan proces kreira nov proces koriscenjem *fork()*, sta je deljeno izmedju parent i child procesa i zasto?
-Deljen je programski kod, odnosno programski kod se ne duplira nego child proces korisit kod od roditeljna a razlog za to je efikasnost, stedi se memorija i poboljsavaju performanse jer su instrukcije u kodu staticke i read-only pa nema potrebe da se to duplira. (Nije potrebno za pitanje ali napomena: kada se pozove fork ono sto se kopira je process image parent procesa osim deljene memorije)
+*Deljen je programski kod, odnosno programski kod se ne duplira nego child proces korisit kod od roditeljna a razlog za to je efikasnost, stedi se memorija i poboljsavaju performanse jer su instrukcije u kodu staticke i read-only pa nema potrebe da se to duplira. (Nije potrebno za pitanje ali napomena: kada se pozove fork ono sto se kopira je process image parent procesa osim deljene memorije)*

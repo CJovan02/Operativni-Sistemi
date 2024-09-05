@@ -1,0 +1,2 @@
+
+***Objasnjenje:** Ovde se radi o producer/consumer problemu gde monitor.produce() upisuje u neki bafer monitor.consume() cita iz tog bafera i prazni jedno mesto kada procita, producer puni bafer sve dok se ne napuni i nakon toga kada ponovo pozove produce() on se blokira sve dok consumer ne oslobodi barem jedno mesto u baferu. Suprotno vazi za consumer, kada je bafer prazan kada se pozove consume proces se blokira sve dok producer ne popuni barem jedno mesto u baferu.*
