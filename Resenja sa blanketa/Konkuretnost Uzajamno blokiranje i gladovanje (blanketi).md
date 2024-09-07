@@ -72,3 +72,9 @@ Ne dolazi do deadlock-a (ovo je primer iz knjige gde se kaze da je ovo ispravno 
 Da bi kreirali deadlock mozemo kod consumera da izostavimo semSignal(n). To dovodi do sledeci situacije:
 Consumer se odmah blokira jer je n = 0  i ostaje blokiran zauvek jer se n nikad ne poveca.
 Producer nastavlja da smanjuje vrednost *e* dok ne dodje do nula i nakon toga se i on blokira zauvek jer se *e* nikad vise ne poveca.
+
+4.  ![[Mat i vektori dodeljenosti zad1.png]]
+[[Stanje sistema na osnovu matrica]]
+![[Resenje mat i vektori dodeljenosti.png]]
+U bezbednom je stanju sistem.
+Valjda nisam zajebao racunicu.
