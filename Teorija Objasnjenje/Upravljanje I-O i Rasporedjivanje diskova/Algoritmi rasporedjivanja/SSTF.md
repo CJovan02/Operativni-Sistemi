@@ -1,0 +1,1 @@
+(Shortest Service Time First) - biraju se zahtevi za U/I diska za koje je potrebno najmanje pomeranje rucice diska od njenog tekuceg polozaja. Moguce je izgladnjivanje.

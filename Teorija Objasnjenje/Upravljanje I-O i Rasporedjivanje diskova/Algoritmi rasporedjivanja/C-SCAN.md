@@ -1,0 +1,2 @@
+
+Cirkularni SCAN ogranicava trazenje samo na jedan smer. Tako, kad se stigne do poslednje staze u jednom smeru, rucica se vraca na suprotan kraj diska i trazenje pocinje poonovo u istom smeru. To smanjuje maksimalno kasnjenje kod novih zahteva.

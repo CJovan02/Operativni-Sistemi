@@ -1,0 +1,5 @@
+(ili elevator algorithm) - od rucice se zahteva kretanje samo u jednom smeru, i da usput zadovoljava sve neispunjene zahteve, dok ne stigne do poslednje staze u tom smeru, ili dok vise nema zahteva za taj smer. To poslednje doterivanje se ponekat zove politika LOOK. Smer servisiranje se tada preokrece i SCAN nastavlja u suportnom smeru, ponovo kupeci sve zahteve redom.
+
+Primeticete da je politika SCAN pristrasna protiv nedavno predjenog podrucja. Prema tome, one ne koristi lokalnost tako dobro kao [[SSTF]].
+
+Nije tesko videti da je politika SCAN sklona poslovima koji zahtevaju staze najblize krajnjoj sredini ili krajnjem obodu i da daje prednost poslovima koji poslednji pristizu. Privi problem moze da se izbegne pomocu politike [[C-SCAN]], dok se drugi problem resava politikom [[N-step-SCAN]].
