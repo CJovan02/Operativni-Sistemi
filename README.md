@@ -2,4 +2,4 @@
 
 ## Uradjeni zadaci sa blanketa zajedno sa objasnjenjem iz teorije
 
-### Ovo sam pisao u programu *Obsidian*, preporuka je da se otvori ovaj repo preko njega zbog boljeg formatiranja.
+### Ovo je pisano u programu *Obsidian*, preporuka je da se otvori ovaj repo preko njega zbog boljeg formatiranja, takodje za neke zadatke sam koristio plugin *excalidraw*.
